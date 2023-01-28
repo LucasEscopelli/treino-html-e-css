@@ -1,0 +1,468 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    object-position: left;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.introducao-text {
+    margin-top: 19px;
+}
+
+.botao-saiba-mais {
+    display: flex;
+    background: #FF8E6E;
+    border-radius: 6px;
+    border: 0;
+    position: relative;
+    width: 165px;
+    height: 60px;
+    margin-top: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding-bottom: 169px;
+}
+
+.container-sobre-nos {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.texto-sobre-nos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.primeira-parte {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.segunda-parte {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF8E6E;
+    margin-top: 7px;
+}
+
+.terceira-parte {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 39px;
+    max-width: 100%;
+    height: 134px;
+}
+
+.botao-saiba-mais2 {
+    display: flex;
+    border-radius: 3px;
+    background: #515070;
+    border: 0;
+    position: relative;
+    width: 165px;
+    height: 60px;
+    margin-top: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-servicos {
+    position: relative;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.o-que-falam {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 170px;
+}
+
+.dep {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF8E6E;
+    margin-top: 7px;
+}
+
+.deps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.depo {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    box-shadow: 0px 4px 34px rgba(8, 53, 120, 0.05);
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+
+}
+
+.dados-pessoa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+
+}
+
+.nome-pessoa {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515070;
+
+}
+
+.nasc-pessoa {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF8E6E;
+}
+
+.depoimento-texto {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #898989;
+    max-width: 496px;
+}
+
+.conteudo-funcionalidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 93px;
+    margin-right: 78px;
+}
+
+.funcionalidades-title {
+    margin-top: 59px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF8E6E;
+}
+
+.row-funcionalidades {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.coluna-funcs {
+    display: flex;
+    flex-direction: column;
+}
+
+.funcs {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    align-items: center;
+}
+
+.funcs-img {
+    width: 50px;
+    height: 50px;
+}
+
+.img-funcs {
+
+    height: 100%;
+}
+
+.funcs-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 100%;
+}
+
+.funcs-text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.funcs-text2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+
+.sobre-nos2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding-bottom: 169px;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    justify-content: center;
+    padding-bottom: 0px;
+    height: 688px;
+    width: 100%;
+}
+
+.sobre-nos3 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding-bottom: 169px;
+}
+
+.sobre-nos4 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding-bottom: 169px;
+}
+
+.celular {
+    position: absolute;
+    bottom: 0;
+}
+
+.container-sobre-nos2 {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.texto-sobre-nos2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+@media(max-width: 700px) {
+
+    .row-funcionalidades {
+        flex-direction: column;
+    }
+    .introducao-text{
+        margin-top: 70px;
+    }
+
+    .sobre-nos4{
+        padding-bottom: 0;
+    }
+
+    .botao-saiba-mais{
+        margin-top: 50px;
+    }
+
+    .sobre-nos2 {
+        height: 1328px;
+    }
+
+    .coluna-funcs {
+        margin-top: 60px;
+    }
+
+    .sobre-nos3 {
+        flex-direction: column;
+    }
+
+    .depoimentos {
+        align-self: center;
+        justify-content: center;
+    }
+
+    .o-que-falam {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .dep {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .deps {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .depo {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .pessoa {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dados-pessoa {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .depoimento-texto {
+        width: 318px;
+    }
+
+    .container-sobre-nos {
+        flex-direction: column;
+    }
+
+    .terceira-parte {
+        width: 338px;
+    }
+
+    .texto-sobre-nos {
+        align-items: center;
+    }
+
+    .texto-sobre-nos {
+        align-items: flex-start;
+    }
+
+    .container-sobre-nos2 {
+        flex-direction: column-reverse;
+    }
+
+    .primeira-parte{
+        margin-top: 60px;
+    }
+
+
+    .botao-saiba-mais2{
+        margin-top: 40px;
+    }
+}
